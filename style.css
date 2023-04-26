@@ -1,0 +1,89 @@
+/*General styles*/
+* {
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+/* Header */
+#header {
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: 2px solid rgb(233, 233, 233);
+}
+#logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo {
+    width: 40px;
+    margin-right: 15px;
+}
+#navbar {
+    padding: 10px;
+    margin: 10px auto;
+}
+#navbar a {
+    width: 100px;
+    color: black;
+}
+#navbar a:hover {
+    color: rgb(112, 112, 112);
+}
+
+/* Main */
+.main-image {
+    background-image: url('https://img.freepik.com/free-photo/gradient-dark-blue-futuristic-digital-grid-background_53876-129728.jpg?w=1380&t=st=1682196916~exp=1682197516~hmac=11655e119e0f8edb4acc07525c3387c6f70a900522c0d1259778663769f52e3e');
+    height: 400px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.main-image-info {
+    background-color: white;
+    position: absolute;
+    padding: 25px;
+    left: 20px;
+    bottom: 20px;
+    
+}
+.btn {
+    background-color: black;
+    color: white;
+    border-radius: 0;
+}
+.btn:hover {
+    background-color: rgb(94, 94, 94);
+    color: white;
+}
+
+/*Featured Posts*/
+#featured-post-container {
+    margin-top: 60px;
+}
+#featured-post-container h2,
+#featured-post-container #post-container {
+    margin-top: 20px;
+}
+#post-container h3, 
+#post-container .image-post,
+#post-container p {
+    margin-top: 20px;
+}
+
+
+.image-post {
+    background-image: url('/image/image-post.jpg');
+    height: 250px;
+}
+
+/*Footer*/
+footer {
+    margin-top: 40px;
+    border-top: 1px solid rgb(233, 233, 233);
+}
+#icons-container #icons,
+#icons-container p {
+    text-align: center;
+    margin-top: 20px;
+}
